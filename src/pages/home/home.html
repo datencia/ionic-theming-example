@@ -1,17 +1,20 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Night & Day</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
   <h2>Welcome to Ionic!</h2>
   <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
+    This demo project shows how theming your Ionic app.
   </p>
   <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
+    Take a look at <a href="https://devdactic.com/dynamic-theming-ionic/">Dynamic Theming Your Ionic App</a>
+    post to learn how to theming your Ionic app.
   </p>
+  <p text-center>I shine at night and glow at day.</p>
+  <button ion-button full icon-left (click)="toggleAppTheme()">
+    <ion-icon name="bulb"></ion-icon>Toggle Theme
+  </button>
 </ion-content>
