@@ -1,26 +1,34 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Ionic Theming Example
 
-## How to use this template
+This sample repo shows how to theming your Ionic app. It's based on the post [Dynamic Theming Your Ionic App](https://devdactic.com/dynamic-theming-ionic/) By Simon Grimm.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## Prerequisites
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+Install [Node.js and npm](https://nodejs.org/en/) if they are not already installed on your computer.
 
-### With the Ionic CLI:
+> Verify that you are running at least node v6.x.x and npm 3.x.x by running node -v and npm -v in a terminal / console window. Older versions may produce errors.
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Install [Ionic](http://ionicframework.com/) if it is not already installed on your computer.
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+## Steps
 
-Then, to run it, cd into `myTabs` and run:
+- Clone this repo into a new project folder if it's not already done.
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+ ```bash
+ $ git clone https://github.com/datencia/ionic-theming-example.git
+ ```
 
-Substitute ios for android if not on a Mac.
+- Install the npm packages described in the `package.json` and verify that it works:
 
+ ```bash
+ $ npm install
+ ```
+- Execute the example:
+
+ ```bash
+ $ ionic serve
+ ```
+
+- Then, load http://localhost:8100/ in a browser to see the output.
+
+ ![Screenshot](.readme_resources/screenshot.gif "Donut Chart")
