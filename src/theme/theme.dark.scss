@@ -1,0 +1,33 @@
+.dark-theme {
+  ion-content {
+    background-color: #090f2f;
+    color: #fff;
+  }
+
+  .toolbar-title {
+    color: #fff;
+  }
+
+  .header .toolbar-background {
+    border-color: #ff0fff;
+    background-color: #090f2f;
+  }
+
+  ion-tabs .tabbar {
+    background-color: #090f2f;
+
+  }
+
+  ion-tabs .tab-button {
+    color: #fff;
+    .icon {
+      color: #fff;
+    }
+  }
+
+  ion-list .item {
+    background-color: #090f2f;
+    color: #fff;
+  }
+
+}
